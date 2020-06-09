@@ -17,13 +17,13 @@
 #  - name: Upgrade packages
 #    apt: upgrade=dist
 
-#  - name: Must have python
-#    raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
+  - name: Must have python
+    raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
 
-#  - name: Install pip
-#    apt:
-#      name: python-pip
-#      state: present
+  - name: Install pip
+    apt:
+      name: python-pip
+      state: present
 
   - name: Install packages
     apt:
