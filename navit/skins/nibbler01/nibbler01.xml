@@ -1,0 +1,42 @@
+ 
+<!-- bottom-left elements -->
+<osd enabled="yes" type="text" label="now:" x="0" y="-50" w="400" h="25" align="4" background_color="#646FC300" font_size="330" />
+<osd enabled="yes" type="text" label="${navigation.item.street_name} ${navigation.item.street_name_systematic}" x="65" y="-50" w="400" h="25" align="4" background_color="#646FC300" font_size="330" />
+<osd enabled="yes" type="text" label="next:" x="0" y="-27" w="400" h="25" align="4" background_color="#646FC300" font_size="330" />
+<osd enabled="yes" type="text" label="${navigation.item.street_name} ${navigation.item[1].street_name_systematic}" x="65" y="-27" w="400" h="25" align="4" background_color="#646FC300" font_size="330" />
+
+<osd enabled="yes" type="text" label="${navigation.item[1].length[named]}" x="0" y="-88" w="110" h="40" align="15"  background_color="#646FC300" font_size="450"/>
+<osd enabled="yes" type="navigation_next_turn" x="0" 	y="-160"  w="110" h="80" align="15" background_color="#646FC300" /> 
+
+<!-- bottom-right -->
+<osd enabled="yes" type="text" label="${tracking.item.route_speed}" x="-110" y="-50"  align="15" w="102" h="40" background_color="#646FC300" font_size="300"/>
+<osd enabled="yes" type="text" label="${vehicle.position_speed}" x="-140" y="-140" align="15" w="140" h="140" background_color="#646FC300" font_size="450"/>
+<osd enabled="yes" type="text" label="${vehicle.position_direction}°" x="-140" y="-140" align="15" w="140" h="70" background_color="#646FC300" font_size="350"/>
+
+<!-- menu right/top-right -->
+<osd enabled="yes" type="gps_status" x="-55" y="4"   w="50" h="30" align="0" background_color="#646fc300" font_size="300" />
+<osd enabled="yes"  type="button"    x="-52" y="35"  w="50" h="30" command="gui.fullscreen=!gui.fullscreen" src="/home/gorcsek/.navit/skins/nibbler01/empty.svg"/> 
+<osd enabled="yes"  type="button"    x="-52" y="93"  w="50" h="30" command="zoom_in()" accesskey="i" src="/home/gorcsek/.navit/skins/nibbler01/empty.svg"/>
+<osd enabled="yes"  type="button"    x="-52" y="140" w="50" h="30" command="zoom_out()" accesskey="o" src="/home/gorcsek/.navit/skins/nibbler01/empty.svg"/>
+<osd enabled="yes"  type="button"    x="-52" y="185" w="50" h="30" command="zoom_to_route()" src="/home/gorcsek/.navit/skins/nibbler01/empty.svg"/>
+<!-- 
+<osd enabled="yes"  type="button"    x="-52" y="230" w="50" h="30" command='spawn("subl")' src="/home/gorcsek/.navit/skins/nibbler01/empty.svg"/>
+-->
+	<osd enabled="yes"  type="button"    x="-52" y="230" w="50" h="30" command="speech_active()" src="/home/gorcsek/.navit/skins/nibbler01/empty.svg"/> 
+<!-- top-left -->
+<osd enabled="yes" type="text" label="ETA:" x="10" y="8" w="50" h="22" align="6"  background_color="#646FC301" font_size="300" />
+<osd enabled="yes" type="text" label="${navigation.item.destination_time[arrival]}" x="60" y="8" w="100" h="22" align="6"  background_color="#646FC301" font_size="300" />
+<osd enabled="yes" type="text" label="TL:" x="10" y="27" w="50" h="22" align="4"  background_color="#646FC300" font_size="300" />
+<osd enabled="yes" type="text" label="${navigation.item.destination_time[remaining]}" x="60" y="27" w="100" h="22" align="4"  background_color="#646FC300" font_size="300" />
+<osd enabled="yes" type="text" label="Dist:" x="10" y="51" w="50" h="22" align="4"  background_color="#646FC300" font_size="300" />
+<osd enabled="yes" type="text" label="${navigation.item.destination_length[named]}" x="60" y="51" w="100" h="22" align="4"  background_color="#646FC300" font_size="300" />
+<osd enabled="yes" type="compass" font_size="250" x="0" y="78" w="96" h="115" align="15" background_color="#646FC300"/>
+
+
+<!-- background images -->
+<osd enabled="yes" type="button" x="0" y="0" align="10" w="197" h="80"  command="" src="/home/gorcsek/.navit/skins/nibbler01/top-left.png" />
+<osd enabled="yes" type="button" x="-99" y="0" align="10" w="56" h="270"  command="" src="/home/gorcsek/.navit/skins/nibbler01/top-right.png" />
+<osd enabled="yes" type="button" x="0" y="-179" align="2"  command="" src="/home/gorcsek/.navit/skins/nibbler01/bottom-left.png" />
+<osd enabled="yes" type="button" x="-227" y="-142" align="2"  command="" src="/home/gorcsek/.navit/skins/nibbler01/bottom-right.png" osd_configuration="5" />
+
+<osd enabled="yes" x="-227" y="-33" w="114" h="30" font_size="150" type="scale" background_color="#646FC300"/>
