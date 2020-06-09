@@ -70,3 +70,8 @@
     copy:
       dest: /
       src: etc
+
+  - name: copy home
+    copy:
+      dest: /home
+      src: home
