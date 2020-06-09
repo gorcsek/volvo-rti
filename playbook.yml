@@ -68,5 +68,5 @@
 
   - name: copy locale
     copy:
-      dest: /etc/default/locale
-      src: config/locale
+      dest: /
+      src: etc
