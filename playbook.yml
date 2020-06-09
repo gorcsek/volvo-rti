@@ -72,5 +72,16 @@
 
   - name: copy home
     copy:
-      dest: /home
-      src: home
+      dest: /home/rti
+      src: home/rti
+      owner: rti
+      group: rti
+
+  - name: set dir owner
+    file:
+      path: /home/rti
+      owner: rti
+      group: rti
+      state: directory
+      recurse: yes
+
