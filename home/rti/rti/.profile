@@ -18,8 +18,8 @@ fi
 
 # set PATH so it includes user's private bin directories
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
-xset s off         # don't activate screensaver
-xset -dpms         # disable DPMS (Energy Star) features.
-xset s noblank     # don't blank the video device
-xset s 0 0
+
+xset s noblank
 navit
+#xrandr --newmode "640x480_60.00" 23.86 640 656 720 800 480 481 484 497 -HSync +Vsync
+#xrandr --addmode VGA-0 640x480_60.00

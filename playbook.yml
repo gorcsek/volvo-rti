@@ -29,6 +29,7 @@
     apt:
       state: latest
       name:
+        - x11-xserver-utils
         - gpsd
         - gpsd-clients
         - python-gps

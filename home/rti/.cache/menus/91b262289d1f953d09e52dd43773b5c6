@@ -1,0 +1,824 @@
+1.2
+lxde-applications.menu
+17
+D/home/rti/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/usr/share/gdm/desktop-directories
+D/var/lib/menu-xdg/desktop-directories
+D/home/rti/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications
+D/usr/share/gdm/applications
+D/var/lib/menu-xdg/applications
+D/etc/xdg/menus/applications-merged
+D/etc/xdg/xdg-LXDE/menus/applications-merged
+D/home/rti/.config/menus/applications-merged
+F/home/rti/.config/menus/lxde-applications.menu
+F/etc/xdg/xdg-LXDE/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+F/etc/xdg/menus/debian-menu.menu
+MATE;Unity;
++Applications
+Alkalmazások
+Alkalmazások
+applications-other
+lxde-menu-applications.directory
+2
+0
++Other
+Egyéb
+Más kategóriákba be nem sorolható alkalmazások
+applications-other
+lxde-other.directory
+2
+0
+
++Graphics
+Grafika
+Grafikai alkalmazások
+applications-graphics
+lxde-graphics.directory
+2
+0
+-libreoffice-draw.desktop
+LibreOffice Draw
+Rajzok, folyamatábrák és logók létrehozása és szerkesztése a Draw használatával.
+libreoffice-draw
+
+7
+Rajzolóprogram
+libreoffice --draw %U
+2
+0
+
+
+Office;FlowChart;Graphics;2DGraphics;VectorGraphics;X-Red-Hat-Base;X-MandrivaLinux-Office-Drawing
+Vector,Schema,Diagram,Layout,OpenDocument Graphics,Microsoft Publisher,Corel Draw,cdr,odg,svg
+
++Multimedia
+Hang és videó
+Multimédia menü
+applications-multimedia
+lxde-audio-video.directory
+2
+0
+-mpv.desktop
+mpv Media Player
+Play movies and songs
+mpv
+
+7
+Multimedia player
+/usr/bin/mpv --profile=pseudo-gui -- %U
+0
+0
+/usr/bin/mpv
+
+AudioVideo;Audio;Video;Player;TV
+
+-pavucontrol.desktop
+PulseAudio hangerőszabályzó
+Hangerő beállítása
+multimedia-volume-control
+
+7
+Hangerőszabályzó
+pavucontrol
+2
+0
+
+
+AudioVideo;Audio;Mixer;GTK
+
+-smplayer.desktop
+SMPlayer
+A great MPlayer front-end
+smplayer
+
+7
+Media Player
+smplayer %U
+0
+0
+
+
+Qt;KDE;AudioVideo;Player;Video
+movie,player,media,kde,qt
+
++Internet
+Internet
+Programok az internet használatához (pl.: web és e-mail)
+applications-internet
+lxde-network.directory
+2
+0
+-qupzilla.desktop
+QupZilla
+A fast and secure web browser
+qupzilla
+
+7
+Web Browser
+qupzilla %u
+0
+0
+
+
+Network;WebBrowser
+
+
++Office
+Iroda
+Irodai alkalmazások
+applications-office
+lxde-office.directory
+2
+0
+-libreoffice-startcenter.desktop
+LibreOffice
+Az irodai programcsomag kompatibilis a nyílt és a szabványosított ODF dokumentumformátummal. A The Document Foundation támogatja.
+libreoffice-startcenter
+
+7
+Iroda
+libreoffice %U
+2
+0
+
+
+Office;X-Red-Hat-Base;X-SuSE-Core-Office;X-MandrivaLinux-Office-Other
+
+-libreoffice-base.desktop
+LibreOffice Base
+Adatbázisok kezelése, lekérdezések és jelentések készítése a Base használatával.
+libreoffice-base
+
+7
+Adatbázis-fejlesztés
+libreoffice --base %U
+2
+0
+
+
+Office;Database;X-Red-Hat-Base;X-MandrivaLinux-MoreApplications-Databases
+Data,SQL
+-libreoffice-calc.desktop
+LibreOffice Calc
+Számítások végrehajtása, adatok elemzése és listák kezelése munkafüzetekben a Calc használatával.
+libreoffice-calc
+
+7
+Munkafüzet
+libreoffice --calc %U
+2
+0
+
+
+Office;Spreadsheet;X-Red-Hat-Base;X-MandrivaLinux-Office-Spreadsheets
+Accounting,Stats,OpenDocument Spreadsheet,Chart,Microsoft Excel,Microsoft Works,OpenOffice Calc,ods,xls,xlsx
+-libreoffice-draw.desktop
+LibreOffice Draw
+Rajzok, folyamatábrák és logók létrehozása és szerkesztése a Draw használatával.
+libreoffice-draw
+
+7
+Rajzolóprogram
+libreoffice --draw %U
+2
+0
+
+
+Office;FlowChart;Graphics;2DGraphics;VectorGraphics;X-Red-Hat-Base;X-MandrivaLinux-Office-Drawing
+Vector,Schema,Diagram,Layout,OpenDocument Graphics,Microsoft Publisher,Corel Draw,cdr,odg,svg
+-libreoffice-impress.desktop
+LibreOffice Impress
+Bemutatók készítése és szerkesztése diavetítésekhez vagy a webre az Impress használatával.
+libreoffice-impress
+
+7
+Bemutató
+libreoffice --impress %U
+2
+0
+
+
+Office;Presentation;X-Red-Hat-Base;X-MandrivaLinux-Office-Presentations
+Slideshow,Slides,OpenDocument Presentation,Microsoft PowerPoint,Microsoft Works,OpenOffice Impress,odp,ppt,pptx
+-libreoffice-math.desktop
+LibreOffice Math
+Képletek és egyenletek létrehozása és szerkesztése a Math használatával.
+libreoffice-math
+
+7
+Képletszerkesztő
+libreoffice --math %U
+2
+0
+
+
+Office;Spreadsheet;Education;Science;Math;X-Red-Hat-Base;X-MandrivaLinux-Office-Other
+Equation,OpenDocument Formula,Formula,odf,MathML
+-libreoffice-writer.desktop
+LibreOffice Writer
+Levelek, jelentések, dokumentumok és weboldalak szövegének és grafikájának létrehozása és szerkesztése a Writer használatával.
+libreoffice-writer
+
+7
+Szövegszerkesztő
+libreoffice --writer %U
+2
+0
+
+
+Office;WordProcessor;X-Red-Hat-Base;X-MandrivaLinux-Office-Wordprocessors
+Text,Letter,Fax,Document,OpenDocument Text,Microsoft Word,Microsoft Works,Lotus WordPro,OpenOffice Writer,CV,odt,doc,docx,rtf
+
++Accessories
+Kellékek
+Asztali kellékek
+applications-accessories
+lxde-utility.directory
+2
+0
+-galculator.desktop
+Galculator
+Egyszerű és tudományos számítások
+galculator
+
+7
+
+galculator
+2
+0
+
+
+Utility
+
+-gpicview.desktop
+Képmegjelenítő
+Képek megtekintése egyszerűen
+gpicview
+
+7
+Képmegjelenítő
+gpicview %f
+2
+0
+
+
+Graphics;Utility;Core;GTK;Viewer;RasterGraphics;2DGraphics;Photography
+graphics,pictures,viever,photography
+-leafpad.desktop
+Leafpad
+Egyszerű szöveg szerkesztő
+leafpad
+
+7
+
+leafpad %f
+0
+0
+
+
+GTK;Utility;TextEditor
+editor
+-mcedit.desktop
+Midnight Commander editor
+Szövegfájlok szerkesztése
+MidnightCommander
+
+7
+
+mcedit
+1
+0
+
+
+Utility;TextEditor
+editor,console,text
+-navit.desktop
+Navit
+The open source vector based navigation program with routing engine
+navit
+
+7
+Navit
+navit
+2
+0
+
+
+GTK;Utility;Geography
+
+-vim.desktop
+Vim
+Szövegfájlok szerkesztése
+gvim
+
+7
+Text Editor
+vim %F
+1
+0
+vim
+
+Utility;TextEditor
+
+-xarchiver.desktop
+Xarchiver
+Egy GTK+2 archívum kezelő
+xarchiver
+
+7
+Archívum kezelő
+xarchiver %f
+2
+0
+
+
+GTK;Archiving;Utility
+GTK,archiver,frontend,compression,zip,bz2,7z,gzip,deb,rpm,arj,lzma,rar,xz
+
++Education
+Oktatás
+
+applications-science
+lxde-education.directory
+2
+0
+-libreoffice-math.desktop
+LibreOffice Math
+Képletek és egyenletek létrehozása és szerkesztése a Math használatával.
+libreoffice-math
+
+7
+Képletszerkesztő
+libreoffice --math %U
+2
+0
+
+
+Office;Spreadsheet;Education;Science;Math;X-Red-Hat-Base;X-MandrivaLinux-Office-Other
+Equation,OpenDocument Formula,Formula,odf,MathML
+
++Development
+Programozás
+Szoftverfejlesztési eszközök
+applications-development
+lxde-development.directory
+2
+0
+-idle.desktop
+IDLE
+Integrated Development Environment for Python
+/usr/share/pixmaps/idle.xpm
+
+7
+
+/usr/bin/idle
+2
+0
+
+
+Application;Development
+
+-idle3.desktop
+IDLE 3
+Integrated DeveLopment Environment for Python3
+/usr/share/pixmaps/idle3.xpm
+
+7
+
+/usr/bin/idle3 %U
+2
+0
+/usr/bin/idle3
+
+Application;Development
+
+-idle-python2.7.desktop
+IDLE (using Python-2.7)
+Integrated Development Environment for Python (using Python-2.7)
+/usr/share/pixmaps/python2.7.xpm
+
+7
+
+/usr/bin/idle-python2.7
+2
+0
+
+
+Application;Development
+
+-idle-python3.5.desktop
+IDLE (using Python-3.5)
+Integrated Development Environment for Python (using Python-3.5)
+/usr/share/pixmaps/python3.5.xpm
+
+7
+
+/usr/bin/idle-python3.5
+2
+0
+
+
+Application;Development
+
+-assistant-qt4.desktop
+Qt 4 Asszisztens
+
+assistant-qt4
+
+7
+Dokumentumböngésző
+/usr/bin/assistant-qt4
+0
+0
+
+
+Qt;Development;Documentation
+
+-linguist-qt4.desktop
+Qt 4 Nyelvész
+
+linguist-qt4
+
+7
+Fordítássegítő
+/usr/bin/linguist-qt4
+0
+0
+
+
+Qt;Development;Translation
+
+-designer-qt4.desktop
+Qt 4 Tervező
+
+designer-qt4
+
+7
+Felülettervező
+/usr/bin/designer-qt4
+0
+0
+
+
+Qt;Development;GUIDesigner
+
+-qtcreator.desktop
+Qt Creator
+
+QtProject-qtcreator
+
+7
+Integrated Development Environment
+qtcreator %F
+0
+0
+
+
+Qt;Development;IDE
+
+
++System
+Rendszereszközök
+Rendszerbeállítás és megfigyelés
+applications-system
+lxde-system-tools.directory
+2
+0
+-pcmanfm.desktop
+Fájlkezelő (PCManFM)
+Fájlrendszer tallózása és fájlok kezelése
+system-file-manager
+
+7
+Fájlkezelő
+pcmanfm %U
+2
+0
+
+
+System;FileTools;FileManager;Utility;Core;GTK
+
+-lxtask.desktop
+Feladatkezelő
+Futó folyamatok kezelése
+utilities-system-monitor
+
+7
+Folyamatkezelő
+lxtask
+2
+0
+
+
+GTK;System;Monitor
+feladat,kilövés,készenlét,processzor,memória,megfigyelés,teljesítmény
+-htop.desktop
+Htop
+Show System Processes
+htop
+
+7
+Process Viewer
+htop
+1
+0
+
+
+ConsoleOnly;System
+system,process,task
+-lxterminal.desktop
+LXTerminal
+Parancssor használata
+lxterminal
+
+7
+Terminál
+lxterminal
+0
+0
+lxterminal
+
+GTK;System;TerminalEmulator
+console,command line,execute
+-mc.desktop
+Midnight Commander
+File manager
+MidnightCommander
+
+7
+
+mc
+1
+0
+
+
+ConsoleOnly;Utility;FileManager;System;FileTools
+file manager,console
+-utf8migrationtool.desktop
+UTF-8 Migration Tool
+UTF-8 Migration Wizard
+applications-system
+
+7
+
+utf8migrationtool
+0
+0
+
+
+GNOME;GTK;System;Utility
+
+-debian-uxterm.desktop
+UXTerm
+standard terminal emulator for the X window system
+xterm-color
+
+7
+
+uxterm
+0
+0
+
+
+System;TerminalEmulator;Utility
+
+-debian-xterm.desktop
+XTerm
+standard terminal emulator for the X window system
+xterm-color
+
+7
+
+xterm
+0
+0
+
+
+System;TerminalEmulator;Utility
+
+
+-
++DesktopSettings
+Beállítások
+Személyes beállítások
+preferences-desktop
+lxde-settings.directory
+2
+0
+-software-properties-drivers.desktop
+Additional Drivers
+Configure third-party and proprietary drivers
+jockey
+
+7
+
+/usr/bin/software-properties-gtk --open-tab=4
+0
+0
+
+
+X-XFCE;GTK;Settings;HardwareSettings
+Drivers
+-pcmanfm-desktop-pref.desktop
+Asztal beállításai
+A háttérkép(ek) és az ablakkezelő viselkedésének megváltoztatása
+user-desktop
+
+7
+
+pcmanfm --desktop-pref
+2
+-47
+
+
+Settings;GTK;DesktopSettings;X-LXDE-Settings
+
+-lxinput.desktop
+Billentyűzet és egér
+Billentyűzet, egér és egyéb beviteli eszközök beállítása
+input-keyboard
+
+7
+
+lxinput
+2
+-47
+
+
+GTK;Settings;HardwareSettings;X-LXDE-Settings
+
+-lxsession-edit.desktop
+Desktop Session Settings
+Manage applications loaded in desktop session
+xfwm4
+
+7
+
+lxsession-edit
+0
+-15
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+
+-ibus-setup.desktop
+IBus beállítások
+IBus beállításai
+ibus-setup
+
+7
+
+ibus-setup
+2
+-67
+
+
+Settings
+keyboard,input
+-im-config.desktop
+Input Method
+Set Keyboard Input Method
+input-keyboard
+
+7
+
+im-config
+0
+6
+
+
+Settings
+keyboard,input
+-lxappearance.desktop
+Megjelenés testreszabása
+A munkaasztal és az alkalmazások megjelenésének testreszabása
+preferences-desktop-theme
+
+7
+Megjelenés testreszabása
+lxappearance
+2
+-47
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+ablakok,tulajdonságok,beállítások,témák,stílus,megjelenés
+-lxrandr.desktop
+Monitor beállításai
+Képernyőfelbontás megváltoztatása és külső monitorok beállítása
+video-display
+
+7
+
+lxrandr
+0
+-47
+
+
+GTK;Settings;HardwareSettings;X-LXDE-Settings
+kijelző,megjelenítő,tv,kiterjesztés,projektor,xrandr,frissítési arány,pozíció,engedélyezés,tiltás
+-nm-connection-editor.desktop
+Network Connections
+Manage and change your network connection settings
+preferences-system-network
+
+7
+
+nm-connection-editor
+2
+-7
+
+
+GNOME;GTK;Settings;X-GNOME-NetworkSettings
+
+-openjdk-8-policytool.desktop
+OpenJDK Java 8 Policy Tool
+OpenJDK Java 8 Policy Tool
+openjdk-8
+
+7
+
+/usr/bin/policytool
+0
+0
+
+
+Settings
+java,security,policytool
+-update-manager.desktop
+Software Updater
+Show and install available updates
+system-software-update
+
+7
+Software Updates
+/usr/bin/update-manager
+0
+0
+
+
+System;Settings
+
+-software-properties-gnome.desktop
+Software & Updates
+Configure the sources for installable software and updates
+software-properties
+
+7
+Software & Updates
+software-properties-gtk
+0
+2
+
+
+GNOME;GTK;Settings;X-GNOME-SystemSettings
+Drivers,Repositories,Repository,PPA
+-software-properties-gtk.desktop
+Software & Updates
+Configure the sources for installable software and updates
+software-properties
+
+7
+Software & Updates
+software-properties-gtk
+0
+-3
+
+
+GNOME;GTK;Settings;X-GNOME-SystemSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel
+Drivers,Repositories,Repository,PPA
+-synaptic.desktop
+Synaptic csomagkezelő
+Csomagok telepítése, törlése és frissítése
+synaptic
+
+7
+Csomagkezelő
+synaptic-pkexec
+0
+0
+
+
+PackageManager;GTK;System;Settings
+
+-ubuntu-software-center.desktop
+Ubuntu szoftverközpont
+Válogasson az Ubuntuhoz elérhető alkalmazások ezrei közül
+softwarecenter
+
+7
+Szoftverközpont
+/usr/bin/software-center %u
+2
+0
+
+
+PackageManager;GTK;System;Settings
+Források,PPA,Telepítés,Eltávolítás,Vásárlás,Katalógus,Bolt,Alkalmazások
+
+
