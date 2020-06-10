@@ -77,6 +77,17 @@
       src: home/rti
       owner: rti
       group: rti
+  
+  - name: Create maps directory if it does not exist
+    file:
+      path: /home/rti/maps
+      state: directory
+      mode: '0755'
+
+  - name: Download maps file 
+    get_url:
+      url: http://maps9.navit-project.org/api/map/?bbox=15.4,45.4,23.6,49.0&timestamp=200417
+      dest: /home/rti/maps/hungary.bin
 
   - name: set dir owner
     file:
