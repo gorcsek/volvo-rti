@@ -58,8 +58,8 @@
 
   - name: copy navit config
     copy:
-      dest: /home/rti/.navit
-      src: navit
+      dest: /home/rti/
+      src: .navit
 
 #  - name: copy maps
 #    copy:
